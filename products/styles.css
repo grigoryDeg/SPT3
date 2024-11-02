@@ -1,0 +1,82 @@
+body {
+    padding-bottom: 0;
+}
+
+.width-handler {
+    margin: 0 auto;
+}
+
+@media (max-width: 991px) {
+    .navbar-nav .nav-link::after {
+        width: 0;
+    }
+
+    .navbar-nav .nav-link {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+footer {
+    background: linear-gradient(#2b1244, #223897);
+    padding: 20px;
+    color: #FFFFFF;    
+}
+
+footer img {
+    padding: 5px 0;
+    width: 110%;
+}
+
+/* ---------------------------- TO ADD ---------------------*/
+.products-p h2 {
+    color: #7da9de;
+    font-weight: 550;
+}
+
+.products-p p {
+    color: #8f8f8f;
+    font-weight: 450;
+}
+
+.side-list li a, .side-list span, .side-list h3 {
+    color: #8f8f8f;
+    font-weight: 510;
+}
+
+.side-list ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.side-list li {
+    list-style-type: none;
+}
+
+.side-list li::before {
+    content: "";
+    display: inline-block;
+    position: relative;
+    width: 11px;
+    height: 11px;
+
+    background: url("../assets/pics/img13.jpg");
+}
+
+.side-list span img {
+    width: 13px;
+}
+
+.side-list span {
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.side-list h3 {
+    margin-top: 1rem;
+}
+
+.products-p .col-md-9 img {
+    width: 35%;
+    float: right;
+}

@@ -1,0 +1,122 @@
+body {
+    padding-bottom: 0;
+}
+
+.width-handler {
+    margin: 0 auto;
+}
+
+@media (max-width: 991px) {
+    .navbar-nav .nav-link::after {
+        width: 0;
+    }
+
+    .navbar-nav .nav-link {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+footer {
+    background: linear-gradient(#2b1244, #223897);
+    padding: 20px;
+    color: #FFFFFF;    
+}
+
+footer img {
+    padding: 5px 0;
+    width: 110%;
+}
+
+/* ---------------------------- TO ADD ---------------------*/
+.about-us-p h2, .historic-timeline-p h2, .vision-and-values-p h2, .Стабильность-p h2, .place-to-work-p h2, .code-of-conduct-p h2, .code-of-conduct-p h5, .Награды-p h2{
+    color: #7da9de;
+    font-weight: 550;
+}
+
+.about-us-p p, .historic-timeline-p p, .vision-and-values-p p, .Стабильность-p p, .place-to-work-p p, .code-of-conduct-p p, .Награды-p p{
+    color: #8f8f8f;
+    font-weight: 450;
+}
+
+.side-list li a, .side-list span, .side-list h3 {
+    color: #8f8f8f;
+    font-weight: 510;
+}
+
+.side-list ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.side-list li {
+    list-style-type: none;
+}
+
+.side-list li::before {
+    content: "";
+    display: inline-block;
+    position: relative;
+    width: 11px;
+    height: 11px;
+
+    background: url("../assets/pics/img13.jpg");
+}
+
+.side-list span img {
+    width: 13px;
+}
+
+.side-list span {
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.side-list h3 {
+    margin-top: 1rem;
+}
+
+.historic-timeline-p .gallery a {
+    display: block;
+}
+
+.historic-timeline-p .gallery a, .historic-timeline-p .gallery img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.vision-and-values-p .col-md-9 img {
+    float: right;
+    padding: 5px;
+}
+
+iframe {
+    width: 100%;
+}
+
+.code-of-conduct-p h3, .code-of-conduct-p h5 {
+    color: #8f8f8f;
+    font-weight: 550;
+}
+
+.code-of-conduct-p .col-md-9 ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.code-of-conduct-p .col-md-9 ul li {
+  padding-left: 1rem;
+  background-image: url("../assets/pics/img26.png");
+  background-position: 0 0.6rem;
+  background-size: 0.6rem 0.6rem;
+  background-repeat: no-repeat;
+
+  color: #8f8f8f;
+  font-weight: 450;
+}
+
+.Награды-p .gallery span {
+    font-size: 1.5rem;
+    font-weight: 550;
+    color: #8f8f8f;
+}

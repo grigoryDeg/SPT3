@@ -1,0 +1,48 @@
+body {
+    padding-bottom: 0;
+}
+
+.width-handler {
+    margin: 0 auto;
+}
+
+@media (max-width: 991px) {
+    .navbar-nav .nav-link::after {
+        width: 0;
+    }
+
+    .navbar-nav .nav-link {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.album .card {
+    padding: 20px 10px;
+    background-color: #f5f7f9;
+    height: 100%;
+	transition: all 0.2s ease;
+}
+
+.album .card:hover {
+	transform: scale(1.02);
+}
+
+.album .card img {
+    max-width: 132px;
+}
+
+.album .card .card_text {
+    padding-right: 20px;
+}
+
+footer {
+    background: linear-gradient(#2b1244, #223897);
+    padding: 20px;
+    color: #FFFFFF;
+}
+
+footer img {
+    padding: 5px 0;
+    width: 110%;
+}
